@@ -6,7 +6,6 @@ tela.title("Cadastro de Produtos")
 # tela.geometry("1024x600")
 tela.state("zoomed")  # janela maximizada
 tela.resizable(False, False)
-tela.iconbitmap("imagens/thefreeforty_register_icon-icons.com_66338.ico")
 
 def inserir():
     messagebox.showinfo("Inserir", "Produto inserido com sucesso!")
